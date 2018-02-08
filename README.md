@@ -1,2 +1,0 @@
-# project
-Crud Angular Firebase
