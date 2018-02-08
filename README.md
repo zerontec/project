@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+
+# project
+Crud Angular Firebase
+
 # Angularf
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
@@ -29,4 +32,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # project
 Crud Angular Firebase
->>>>>>> 50d52c927134edfccacd11cff3f4480535d5d362
+
