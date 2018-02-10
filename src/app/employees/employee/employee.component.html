@@ -1,20 +1,20 @@
-<form #employeeForm="ngform" (ngSubmit)= "onSubmit(employeeForm)">
+<form #employeeForm="ngForm" (ngSubmit)= "onSubmit(employeeForm)">
 <div class="form-group">
 
   <label>Name</label>
   <input class="form-control" name="name" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.name" placeholder="FullName">
 </div>
-div class="form-group">
+<div class="form-group">
 
   <label>Position</label>
   <input class="form-control" name="position" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.position" placeholder="Position">
 </div>
-div class="form-group">
+<div class="form-group">
 
   <label>Salary</label>
   <input class="form-control" name="salary" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.salary" placeholder="Salary">
 </div>
-div class="form-group">
+<div class="form-group">
 
   <label>Number</label>
   <input class="form-control" name="number" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.number" placeholder="Number">

@@ -12,5 +12,5 @@ export const environment = {
     projectId: "angular5f-8af0c",
     storageBucket: "angular5f-8af0c.appspot.com",
     messagingSenderId: "200598337474"
-  };
+  }
 };
