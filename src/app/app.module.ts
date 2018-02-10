@@ -23,7 +23,9 @@ import { EmployeeListComponent } from './employees/employee-list/employee-list.c
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    FormsModule
+    FormsModule,
+    AngularFireDatabaseModule,
+    AngularFireModule
 
   ],
   providers: [],

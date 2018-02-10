@@ -10,19 +10,27 @@
   <input class="form-control" name="position" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.position" placeholder="Position">
 </div>
 <div class="form-group">
+    <label>Salary</label>
+<div class="input-group">
 
-  <label>Salary</label>
+  <div class="input-group-addon">
+    <i class="fa fa-dollar"></i>
+
+  </div>
   <input class="form-control" name="salary" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.salary" placeholder="Salary">
 </div>
-<div class="form-group">
-
-  <label>Number</label>
-  <input class="form-control" name="number" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.number" placeholder="Number">
+ 
+ 
 </div>
 <div class="form-group">
-<button type="submit" class="btn btn-default">Submit</button>
-<button type="button" class="btn btn-default">Delete</button>
-<button type="button" class="btn btn-default">Update</button>
+
+  <label>Office</label>
+  <input class="form-control" name="office" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.office" placeholder="Number">
+</div>
+<div class="form-group">
+<button type="submit" class="btn btn-default"><i class="fa fa-floppy-o"></i> Submit</button>
+<button type="button" class="btn btn-default"><i class="fa fa-trash"></i>Delete</button>
+<button type="button" class="btn btn-default" (click)= "resetForm()"><i class="fa fa-repeat"></i>Reset</button>
 
 </div>
 
